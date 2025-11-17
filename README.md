@@ -246,14 +246,3 @@ QSX – Aguardando na frequência
 10-99 – Mandado ativo
 ```
 
----
-
-Se quiser, posso gerar também:
-
-✅ versão com ícones  
-✅ versão com tabelas  
-✅ versão com colunas lado a lado  
-✅ versão com tema Vouali (preto/laranja)  
-✅ versão com links automáticos no sumário  
-
-É só pedir!
