@@ -1,50 +1,19 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Códigos Policiais – Documentação Oficial</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background: #0f0f0f;
-        color: #fff;
-        margin: 0;
-        padding: 40px;
-        line-height: 1.6;
-    }
-    h1, h2 {
-        font-weight: 600;
-        margin-bottom: 10px;
-        color: #ffffff;
-    }
-    .section {
-        margin-bottom: 40px;
-        padding: 25px;
-        background: #161616;
-        border-radius: 12px;
-        border: 1px solid #222;
-    }
-    .code-list {
-        font-size: 15px;
-        white-space: pre-line;
-        margin-top: 10px;
-    }
-    .title {
-        font-size: 26px;
-        font-weight: bold;
-        margin-bottom: 25px;
-        border-bottom: 2px solid #ea580c;
-        padding-bottom: 10px;
-    }
-</style>
-</head>
-<body>
+# 🚨 Códigos Policiais – Documento Unificado
 
-<div class="title">Códigos Policiais – Documento Unificado</div>
+Este documento reúne três tabelas importantes utilizadas em operações policiais,
+sistemas de despacho, rádios e servidores RP:
 
-<div class="section">
-    <h2>1. Códigos Policiais (01–99)</h2>
-    <div class="code-list">
+- **Códigos Policiais (01–99)**
+- **Códigos Q (rádio)**
+- **10-Codes (10-0 a 10-99)**
+
+Formato minimalista e ideal para README no GitHub.
+
+---
+
+## 🔹 1. Códigos Policiais (01–99)
+
+```
 01 - Distúrbio / Briga de rua
 02 - Ameaça / Intimidação
 03 - Vandalismo / Dano ao patrimônio
@@ -134,7 +103,7 @@
 87 - Local suspeito
 88 - Movimento suspeito armado
 89 - Ocorrência envolvendo gangues
-90 - Assalto em andamento
+90 - Assalto em andamento (genérico)
 91 - Reforço policial solicitado
 92 - Oficial ferido
 93 - Oficial caiu em combate
@@ -144,80 +113,147 @@
 97 - Ocorrência encerrada
 98 - Reclassificação de ocorrência
 99 - Código reservado / Interno
-    </div>
-</div>
+```
 
-<div class="section">
-    <h2>2. Códigos Q</h2>
-    <div class="code-list">
-QAP – Na escuta
-QRV – Em serviço
-QTH – Localização
-QSL – Mensagem recebida
-QRT – Encerrar transmissão
-QRM – Interferência
-QRO – Aumentar potência
-QRP – Reduzir potência
-QRS – Transmitir devagar
-QRR – Emergência
-QSJ – Valor / Pagamento
-QSO – Comunicação
-QTC – Mensagem urgente
-QTI – Rota
-QTR – Hora atual
-QSY – Mudando de frequência
-QSX – Aguardando na frequência
-    </div>
-</div>
+---
 
-<div class="section">
-    <h2>3. 10-CODES (10-0 a 10-99)</h2>
-    <div class="code-list">
-10-0 – Cuidado  
-10-1 – Sinal fraco  
-10-4 – Afirmativo  
-10-7 – Fora de serviço  
-10-8 – Em serviço  
-10-9 – Repetir  
+## 🔹 2. Códigos Q
+
+```
+QAP – Na escuta  
+QRV – Operacional / Em serviço  
+QTH – Localização  
+QSL – Mensagem recebida  
+QRT – Fim da transmissão  
+QRM – Interferência  
+QRO – Aumentar potência  
+QRP – Reduzir potência  
+QRS – Transmitir devagar  
+QRR – Emergência  
+QSJ – Valor / Pagamento  
+QSO – Comunicação realizada  
+QTC – Mensagem urgente  
+QTI – Rota / Trajeto  
+QTR – Hora atual  
+QSY – Mudando de frequência  
+QSX – Aguardando na frequência  
+```
+
+---
+
+## 🔹 3. 10-CODES (10-0 a 10-99)
+
+```
+10-0  – Cuidado  
+10-1  – Sinal fraco  
+10-2  – Sinal bom  
+10-3  – Parar transmissão  
+10-4  – Afirmativo  
+10-5  – Repassar mensagem  
+10-6  – Ocupado  
+10-7  – Fora de serviço  
+10-8  – Em serviço  
+10-9  – Repetir  
 10-10 – Standby  
 10-11 – Muito rápido  
 10-12 – Visitantes presentes  
 10-13 – Situação / Clima  
+10-14 – Acompanhamento  
 10-15 – A caminho com preso  
+10-16 – Recolher item  
+10-17 – Solicitação pendente  
 10-18 – Urgente  
 10-19 – Retornar à base  
 10-20 – Localização  
-10-22 – Cancelado  
+10-21 – Fazer ligação  
+10-22 – Cancelar  
 10-23 – No local  
 10-24 – Ocorrência finalizada  
-10-26 – Prisão  
-10-28 – Placa  
-10-29 – Mandado  
+10-25 – Contato pessoal  
+10-26 – Prisão / Detenção  
+10-27 – Checar documento  
+10-28 – Consultar placa  
+10-29 – Mandado ativo  
+10-30 – Uso indevido do rádio  
 10-31 – Crime em andamento  
 10-32 – Suspeito armado  
 10-33 – Emergência  
+10-34 – Motim  
+10-35 – Informações sigilosas  
+10-36 – Hora exata  
+10-37 – Procurar veículo  
 10-38 – Parada de trânsito  
+10-39 – Sirene acionada  
+10-40 – Sem sirene  
 10-41 – Início de turno  
 10-42 – Fim de turno  
+10-43 – Informação  
+10-44 – Solicitar permissão  
+10-45 – Animal morto  
+10-46 – Veículo quebrado  
+10-47 – Assistência mecânica  
+10-48 – Tráfego bloqueado  
+10-49 – Veículo suspeito  
 10-50 – Acidente  
+10-51 – Guincho  
 10-52 – Ambulância  
+10-53 – Acidente com vítima  
+10-54 – Animal solto  
 10-55 – Condutor embriagado  
+10-56 – Suicida  
 10-57 – Atropelamento  
+10-58 – Controle de tráfego  
+10-59 – Escolta  
 10-60 – Suspeito avistado  
+10-61 – Nas proximidades  
+10-62 – Responder mensagem  
+10-63 – Preparar para copiar  
+10-64 – Entregar mensagem  
+10-65 – Chamada pendente  
+10-66 – Pessoa desaparecida  
+10-67 – Aguardar instruções  
+10-68 – Solicitação de apoio  
+10-69 – Mensagem recebida  
 10-70 – Incêndio  
 10-71 – Incêndio confirmado  
+10-72 – Situação do incêndio  
+10-73 – Relatório do clima  
+10-74 – Negativo  
+10-75 – Em contato  
 10-76 – A caminho  
 10-77 – ETA  
 10-78 – Apoio urgente  
+10-79 – Solicitar IML  
 10-80 – Perseguição  
+10-81 – Bafômetro  
+10-82 – Hospedagem solicitada  
+10-83 – Verificar ponto  
+10-84 – Chegada prevista  
+10-85 – Condições do local  
+10-86 – Oficial de plantão  
+10-87 – Recolher pessoa  
+10-88 – Telefone público  
 10-89 – Bomba encontrada  
 10-90 – Alarme disparado  
+10-91 – Animal preso  
+10-92 – Indivíduo suspeito  
+10-93 – Manifestação / Protesto  
+10-94 – Disparos confirmados  
 10-95 – Preso detido  
+10-96 – Pessoa alterada  
 10-97 – Chegando  
-10-98 – Finalizando ocorrência  
+10-98 – Ocorrência finalizada  
 10-99 – Mandado ativo
-    </div>
-</div>
+```
 
-</body>
-</html>
+---
+
+Se quiser, posso gerar também:
+
+✅ versão com ícones  
+✅ versão com tabelas  
+✅ versão com colunas lado a lado  
+✅ versão com tema Vouali (preto/laranja)  
+✅ versão com links automáticos no sumário  
+
+É só pedir!
